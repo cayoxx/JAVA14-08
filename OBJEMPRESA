@@ -1,0 +1,87 @@
+package quatorze08;
+
+public class ObjEmpresa {
+	
+	public static void main(String[] args) {
+		Empresa cliente = new Empresa ();
+		Empresa funcionario = new Empresa ();
+		Empresa chefe = new Empresa ();
+		
+		cliente.setid("1234");
+		cliente.setnome("Joanilson");
+		cliente.setgenero("Masculino");
+		cliente.setcor("Branquinho");
+		cliente.setnacionalidade("Angolano");
+		cliente.setidade("35");
+		cliente.settelefone("998565947");
+		cliente.setcpf("404040404");
+		cliente.setrg("4024456132");
+
+		
+		funcionario.setid("4873");
+		funcionario.setnome("Garro");
+		funcionario.setgenero("Masculino");
+		funcionario.setcor("Branquinho");
+		funcionario.setnacionalidade("Português");
+		funcionario.setidade("37");
+		funcionario.settelefone("987644234");
+		funcionario.setcpf("18237456");
+		funcionario.setrg("9238723423");
+		
+		chefe.setid("8365");
+		chefe.setnome("Cássio");
+		chefe.setgenero("Masculino");
+		chefe.setcor("Amarelo");
+		chefe.setnacionalidade("Mexicano");
+		chefe.setidade("25");
+		chefe.settelefone("945634756");
+		chefe.setcpf("823658659");
+		chefe.setrg("648732485");
+		
+		System.out.println("CLIENTE");
+		System.out.println("ID: " + cliente.getid());
+		System.out.println("Nome: " + cliente.getnome());
+		System.out.println("Gênero: " + cliente.getgenero());
+		System.out.println("Cor: " + cliente.getcor());
+		System.out.println("Nacionalidade: " + cliente.getnacionalidade());
+		System.out.println("Idade: " + cliente.getidade());
+		System.out.println("Telefone: " + cliente.gettelefone());
+		System.out.println("Cpf: " + cliente.getcpf());
+		System.out.println("RG: " + cliente.getrg());
+		System.out.println(cliente.cadastro());
+		System.out.println(cliente.pagamento());
+		System.out.println(cliente.cancelamento());
+		System.out.println("");
+
+		System.out.println("FUNCIONÁRIO");
+		
+		System.out.println("ID: " + funcionario.getid());
+		System.out.println("Nome: " + funcionario.getnome());
+		System.out.println("Gênero: " + funcionario.getgenero());
+		System.out.println("Cor: " + funcionario.getcor());
+		System.out.println("Nacionalidade: " + funcionario.getnacionalidade());
+		System.out.println("Idade: " + funcionario.getidade());
+		System.out.println("Telefone: " + funcionario.gettelefone());
+		System.out.println("Cpf: " + funcionario.getcpf());
+		System.out.println("RG: " + funcionario.getrg());
+		System.out.println(funcionario.cadastro());
+		System.out.println(funcionario.cancelamento());
+		System.out.println(funcionario.recebe());
+		System.out.println("");
+
+		System.out.println("CHEFE");
+		System.out.println("ID: " + chefe.getid());
+		System.out.println("Nome: " + chefe.getnome());
+		System.out.println("Gênero: " + chefe.getgenero());
+		System.out.println("Cor: " + chefe.getcor());
+		System.out.println("Nacionalidade: " + chefe.getnacionalidade());
+		System.out.println("Idade: " + chefe.getidade());
+		System.out.println("Telefone: " + chefe.gettelefone());
+		System.out.println("Cpf: " + chefe.getcpf());
+		System.out.println("RG: " + chefe.getrg());
+		System.out.println(chefe.administra());
+		System.out.println(chefe.organiza());
+		System.out.println(chefe.recebe());
+		System.out.println("");
+	}
+}
