@@ -1,0 +1,91 @@
+package quatorze08;
+
+public class Empresa {
+	
+	String id;
+	String nome;
+	String genero;
+	String cor;
+	String nacionalidade;
+	String idade;
+	String telefone;
+	String cpf;
+	String rg;
+	
+	public String getid() {
+		return id;
+	}
+	public void setid(String id) {
+		this.id = id;
+	}
+	public String getnome() {
+		return nome;
+	}
+	public void setnome(String nome) {
+		this.nome = nome;
+	}
+	public String getgenero() {
+		return genero;
+	}
+	public void setgenero(String genero) {
+		this.genero = genero;
+	}
+	public String getcor() {
+		return cor;
+	}
+	public void setcor(String cor) {
+		this.cor = cor;
+	}
+	public String getnacionalidade() {
+		return nacionalidade;
+	}
+	public void setnacionalidade(String nacionalidade) {
+		this.nacionalidade = nacionalidade;
+	}
+	public String getidade() {
+		return idade;
+	}
+	public void setidade(String idade) {
+		this.idade = idade;
+	}
+	public String gettelefone() {
+		return telefone;
+	}
+	public void settelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	public String getcpf() {
+		return cpf;
+	}
+	public void setcpf(String cpf) {
+		this.cpf = cpf;
+	}
+	public String getrg() {
+		return rg;
+	}
+	public void setrg(String rg) {
+		this.rg = rg;
+	}
+	public String cadastro() {
+		return "Cadastrar";
+	}
+	public String pagamento () {
+		return "Pagar";
+	}
+	public String cancelamento () {
+		return "Cancelar";
+	}
+	public String administra () {
+		return "Administrar";
+	}
+	public String organiza () {
+		return "Organizar";
+	}
+	public String recebe() {
+		return "Receber";
+	}
+	
+	
+	
+
+}
